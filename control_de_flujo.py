@@ -156,13 +156,13 @@ presentes en posiciones pares, pero solo hasta la posición 80.
 
 lista3 = [941, 149, 672, 208, 99, 562, 749, 947, 251, 750, 889, 596, 836, 742, 512, 19, 674, 142, 272, 773, 859, 598, 898, 930, 119, 107, 798, 447, 348, 402, 33, 678, 460, 144, 168, 290, 929, 254, 233, 563, 48, 249, 890, 871, 484, 265, 831, 694, 366, 499, 271, 123, 870, 986, 449, 894, 347, 346, 519, 969, 242, 57, 985, 250, 490, 93, 999, 373, 355, 466, 416, 937, 214, 707, 834, 126, 698, 268, 217, 406, 334, 285, 429, 130, 393, 396, 936, 572, 688, 765, 404, 970, 159, 98, 545, 412, 629, 361, 70, 602]
 
-#pares = []
-#posicion = 0
-#for i in lista3:
-  #if posicion%2 == 0 and posicion <= 80:
-    #pares.append(i)
-  #posicion += 1
-#print(pares)
+pares = []
+posicion = 0
+for i in lista3:
+  if posicion%2 == 0 and posicion <= 80:
+    pares.append(i)
+  posicion += 1
+print(pares)
 
 
 """Guarde en lista `cubos` el cubo (potencia elevada a la 3) de los números del 
@@ -212,16 +212,16 @@ cantidad máxima de asteriscos de 30.
 *
 """
 
-#n = 1
-#i = 1
-#serie = '*'
-#prueba1 = 0
-#while n <= 5:
-  #while i < n:
-    #serie = serie + '*'
-    #i += 1
-  #patron = serie + '\n'
-  #n += 1
-#print(patron)
+n = 1
+i = 1
+serie = '*'
+prueba1 = 0
+while n <= 5:
+  while i < n:
+    serie = serie + '*'
+    i += 1
+  patron = serie + '\n'
+  n += 1
+print(patron)
 
 
