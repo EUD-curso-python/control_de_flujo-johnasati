@@ -177,17 +177,17 @@ lista3 = [941, 149, 672, 208, 99, 562, 749, 947, 251, 750, 889, 596, 836, 742, 5
 y guardar resultado en variable `suma_2s` 
 """
 
-#n = 1
-#i = 1
-#serie = '2'
-#suma_2s = 0
-#while n <= 10:
-  #while i < n:
-    #serie = serie + '2'
-    #i += 1
-  #suma_2s = suma_2s + int(serie)
-  #n += 1
-#print(suma_2s)
+n = 1
+i = 1
+serie = '2'
+suma_2s = 0
+while n <= 10:
+  while i < n:
+    serie = serie + '2'
+    i += 1
+  suma_2s = suma_2s + int(serie)
+  n += 1
+print(suma_2s)
 
 
 
