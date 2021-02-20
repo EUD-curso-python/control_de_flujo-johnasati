@@ -16,11 +16,12 @@ while n < 100:
 
 Hasta el número 50.
 """
-rango = list(range(1,4))
+rango = list(range(1,51))
 intento1 = ''
 acumulado = list()
 for n in (rango):
-  intento1 = intento1.strip() + ' ' + str(n)
+  intento1 = intento1 + ' ' + str(n)
+  intento1 = intento1.lstrip()
   acumulado.append(intento1)
 print(acumulado)
 
@@ -36,25 +37,45 @@ while n < 100:
 
 
 
-
 """Guarde en `tabla100` un string con los primeros 10 múltiplos del número 134, 
 separados por coma, así:
 
 '134,268,...'
 
 """
-
+#n = 0
+#tabla100 = ''
+#i = 1
+#multiplo = 134
+#while i <= 10000:
+  #if i % multiplo == 0:
+    #tabla100 = tabla100 + str(1) + ','
+    #n += 1
+    #i += 1
+  #else:
+    #i += 1
+  #if n >= 10
+    #break
+#print(tabla100)
 
 
 
 
 """Guardar en `multiplos3` la cantidad de números que son múltiplos de 3 y 
-menores o iguales a 300 en la lista `lista1` que se define a continuación (la lista 
+menores a 300 en la lista `lista1` que se define a continuación (la lista 
 está ordenada).
 """
 lista1 = [12, 15, 20, 27, 32, 39, 42, 48, 55, 66, 75, 82, 89, 91, 93, 105, 123, 132, 150, 180, 201, 203, 231, 250, 260, 267, 300, 304, 310, 312, 321, 326]
 
-
+#n1 = count()
+#multiplos3 = count()
+#for i in lista1:
+  #if i%3 == 0 and i < 300:
+    #n1.append(i)
+  #i += 1
+#print(n1)
+#multiplos3 = len(n1)
+#print(multiplos3)
 
 
 
@@ -92,7 +113,9 @@ Nota: Un número primo es un número entero que no se puede calcular multiplican
 otros números enteros.
 """
 
-
+#if fact == 0
+  #primos.append(n)
+#n += 1
 
 
 
@@ -105,7 +128,12 @@ del segundo cada uno se calcula sumando los dos anteriores términos de la serie
 
 """
 
-
+#n = 2
+#fibonacci = [0,1]
+#while n < 6:
+  #fibonacci.append((n-1)+(n-2))
+  #n += 1
+#print(fibonacci)
 
 
 
@@ -118,7 +146,7 @@ Por ejemplo, el factorial de 5 se calcula así:
 5! = 5 × 4 × 3 × 2 × 1 = 120
 """
 
-
+#factorial = 30
 
 
 
@@ -128,9 +156,13 @@ presentes en posiciones pares, pero solo hasta la posición 80.
 
 lista3 = [941, 149, 672, 208, 99, 562, 749, 947, 251, 750, 889, 596, 836, 742, 512, 19, 674, 142, 272, 773, 859, 598, 898, 930, 119, 107, 798, 447, 348, 402, 33, 678, 460, 144, 168, 290, 929, 254, 233, 563, 48, 249, 890, 871, 484, 265, 831, 694, 366, 499, 271, 123, 870, 986, 449, 894, 347, 346, 519, 969, 242, 57, 985, 250, 490, 93, 999, 373, 355, 466, 416, 937, 214, 707, 834, 126, 698, 268, 217, 406, 334, 285, 429, 130, 393, 396, 936, 572, 688, 765, 404, 970, 159, 98, 545, 412, 629, 361, 70, 602]
 
-
-
-
+#pares = []
+#posicion = 0
+#for i in lista3:
+  #if posicion%2 == 0 and posicion <= 80:
+    #pares.append(i)
+  #posicion += 1
+#print(pares)
 
 
 """Guarde en lista `cubos` el cubo (potencia elevada a la 3) de los números del 
@@ -145,7 +177,17 @@ lista3 = [941, 149, 672, 208, 99, 562, 749, 947, 251, 750, 889, 596, 836, 742, 5
 y guardar resultado en variable `suma_2s` 
 """
 
-
+#n = 1
+#i = 1
+#serie = '2'
+#suma_2s = 0
+#while n <= 10:
+  #while i < n:
+    #serie = serie + '2'
+    #i += 1
+  #suma_2s = suma_2s + int(serie)
+  #n += 1
+#print(suma_2s)
 
 
 
@@ -170,6 +212,16 @@ cantidad máxima de asteriscos de 30.
 *
 """
 
-
+#n = 1
+#i = 1
+#serie = '*'
+#prueba1 = 0
+#while n <= 5:
+  #while i < n:
+    #serie = serie + '*'
+    #i += 1
+  #patron = serie + '\n'
+  #n += 1
+#print(patron)
 
 
