@@ -16,14 +16,23 @@ while n < 100:
 
 Hasta el número 50.
 """
-
-
+rango = list(range(1,4))
+intento1 = ''
+acumulado = list()
+for n in (rango):
+  intento1 = intento1.strip() + ' ' + str(n)
+  acumulado.append(intento1)
+print(acumulado)
 
 
 """Guarde en `suma100` el entero de la suma de todos los números entre 1 y 100:
 """
 
-
+suma100 = 0
+n = 0
+while n < 100:
+  n += 1
+  suma100 += n
 
 
 
