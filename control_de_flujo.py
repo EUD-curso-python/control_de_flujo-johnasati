@@ -67,15 +67,15 @@ está ordenada).
 """
 lista1 = [12, 15, 20, 27, 32, 39, 42, 48, 55, 66, 75, 82, 89, 91, 93, 105, 123, 132, 150, 180, 201, 203, 231, 250, 260, 267, 300, 304, 310, 312, 321, 326]
 
-#n1 = count()
-#multiplos3 = count()
-#for i in lista1:
-  #if i%3 == 0 and i < 300:
-    #n1.append(i)
-  #i += 1
-#print(n1)
-#multiplos3 = len(n1)
-#print(multiplos3)
+n1 = list()
+multiplos3 = list()
+for i in lista1:
+  if i%3 == 0 and i < 300:
+    n1.append(i)
+  i += 1
+print(n1)
+multiplos3 = len(n1)
+print(multiplos3)
 
 
 
@@ -94,7 +94,9 @@ lista1 = [12, 15, 20, 27, 32, 39, 42, 48, 55, 66, 75, 82, 89, 91, 93, 105, 123, 
 ]
 """
 
-
+num=10
+for i in range(1,num+1):
+    print(num-i)
 
 
 
@@ -212,16 +214,16 @@ cantidad máxima de asteriscos de 30.
 *
 """
 
-n = 1
-i = 1
-serie = '*'
-prueba1 = 0
-while n <= 5:
-  while i < n:
-    serie = serie + '*'
-    i += 1
-  patron = serie + '\n'
-  n += 1
-print(patron)
+#n = 1
+#i = 1
+#serie = '*'
+#prueba1 = 0
+#while n <= 5:
+  #while i < n:
+    #serie = serie + '*'
+    #i += 1
+  #patron = serie + '\n'
+  #n += 1
+#print(patron)
 
 
