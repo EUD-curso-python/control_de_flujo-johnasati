@@ -58,14 +58,14 @@ separados por coma, así:
     #n += 1
 #tabla100 = ','.join(l1)
 
-rango1 = list(range(1,10))
-validacion1 = ''
-n = 0
-stringtab = ''
-tabla100 = list()
-for n in (rango1):
-  validacion1 = 134 * n
-  tabla100.append(str(validacion1))
+#rango1 = list(range(1,10))
+#validacion1 = ''
+#n = 0
+#stringtab = ''
+#tabla100 = list()
+#for n in (rango1):
+  #validacion1 = 134 * n
+  #tabla100.append(str(validacion1))
 #stringtab = " ".join(tabla100)
 #print(stringtab)
  
@@ -115,8 +115,12 @@ print(multiplos3)
 `invertido` (sin hacer uso de la función `reversed` ni del método `reverse`)
 """
 
-#
 lista2 = list(range(1, 70, 5))
+invertido = list()
+ll = len(lista2)-1
+for i in lista2:
+  invertido.append(lista2[ll])
+  ll-=1
 
 
 
