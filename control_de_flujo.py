@@ -43,22 +43,32 @@ separados por coma, así:
 '134,268,...'
 
 """
-#n = 0
+
+#for
+#range
+
+#n = 1
+#control = 1
 #tabla100 = ''
-#i = 1
-#multiplo = 134
-#while i <= 10000:
-  #if i % multiplo == 0:
-    #tabla100 = tabla100 + str(1) + ','
+#l1 = list()
+#while control <= 10:
+  #if n % 134 == 0:
+    #control += 1
+    #l1.append(str(n))
     #n += 1
-    #i += 1
-  #else:
-    #i += 1
-  #if n >= 10
-    #break
-#print(tabla100)
+#tabla100 = ','.join(l1)
 
-
+rango1 = list(range(1,10))
+validacion1 = ''
+n = 0
+stringtab = ''
+tabla100 = list()
+for n in (rango1):
+  validacion1 = 134 * n
+  tabla100.append(str(validacion1))
+#stringtab = " ".join(tabla100)
+#print(stringtab)
+ 
 
 
 """Guardar en `multiplos3` la cantidad de números que son múltiplos de 3 y 
@@ -94,9 +104,9 @@ print(multiplos3)
 ]
 """
 
-num=10
-for i in range(1,num+1):
-    print(num-i)
+
+#for i in range(50,0+1):
+#    print(num-i)
 
 
 
@@ -104,6 +114,8 @@ for i in range(1,num+1):
 """Invierta la siguiente lista usando el bucle for y guarde el resultado en 
 `invertido` (sin hacer uso de la función `reversed` ni del método `reverse`)
 """
+
+#
 lista2 = list(range(1, 70, 5))
 
 
@@ -114,12 +126,16 @@ lista2 = list(range(1, 70, 5))
 Nota: Un número primo es un número entero que no se puede calcular multiplicando 
 otros números enteros.
 """
-
-#if fact == 0
-  #primos.append(n)
-#n += 1
-
-
+#
+n1 = list()
+multiplos3 = list()
+for i in lista1:
+  if i%3 == 0 and i < 300:
+    n1.append(i)
+  i += 1
+print(n1)
+multiplos3 = len(n1)
+print(multiplos3)
 
 """Guardar en `fibonacci` una lista con los primeros 60 términos de la serie de 
 Fibonacci.
@@ -171,8 +187,10 @@ print(pares)
 1 al 100. 
 """
 
-
-
+cubos = list()
+for i in range(1,101):
+  cubos.append(i**3)
+#print(cubos[i])
 
 
 """Encuentre la suma de la serie 2 +22 + 222 + 2222 + .. hasta sumar 10 términos 
@@ -214,6 +232,19 @@ cantidad máxima de asteriscos de 30.
 *
 """
 
+patron = ''
+for numero in range(1,31):
+  patron += "*"*(numero) + "\n"
+for numero in range(29,0, -1):
+  patron += "*"*(numero) + "\n"
+patron = patron.strip()
+print(patron)
+
+
+
+#def imprimir_(patron):
+    #for num in patron: 
+        #print("*" * num)
 #n = 1
 #i = 1
 #serie = '*'
@@ -225,5 +256,7 @@ cantidad máxima de asteriscos de 30.
   #patron = serie + '\n'
   #n += 1
 #print(patron)
+
+#print("*" * 30)
 
 
