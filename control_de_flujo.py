@@ -47,16 +47,16 @@ separados por coma, así:
 #for
 #range
 
-#n = 1
-#control = 1
-#tabla100 = ''
-#l1 = list()
-#while control <= 10:
-  #if n % 134 == 0:
-    #control += 1
-    #l1.append(str(n))
-    #n += 1
-#tabla100 = ','.join(l1)
+n=1
+control=1
+tabla100=''
+l1=list()
+while control <= 10:
+    if n % 134 == 0:
+        control+=1
+        l1.append(str(n))
+    n+=1
+tabla100=','.join(l1)
 
 #rango1 = list(range(1,10))
 #validacion1 = ''
