@@ -44,19 +44,16 @@ separados por coma, así:
 
 """
 
-#for
-#range
-
 n=1
 control=1
 tabla100=''
-l1=list()
+prueba1=list()
 while control <= 10:
     if n % 134 == 0:
         control+=1
-        l1.append(str(n))
+        prueba1.append(str(n))
     n+=1
-tabla100=','.join(l1)
+tabla100=','.join(prueba1)
 
 #rango1 = list(range(1,10))
 #validacion1 = ''
@@ -103,13 +100,27 @@ print(multiplos3)
   '1'
 ]
 """
+l1=list()
+l2=list()
+acumulado=list()
+regresivo50=list()
+n=1
+for i in range(51):
+    while n<=i:
+        l1.append(str(n))
+        n=n+1
+    l2=' '.join(l1)
+    acumulado.append(l2)
+    
+acumulado.pop(0)
+regresivo50=acumulado
+regresivo50.reserved()
+print(regresivo50)
 
 
-#for i in range(50,0+1):
-#    print(num-i)
 
-
-
+#l1=list()
+    #n=1
 
 """Invierta la siguiente lista usando el bucle for y guarde el resultado en 
 `invertido` (sin hacer uso de la función `reversed` ni del método `reverse`)
