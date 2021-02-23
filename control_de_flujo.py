@@ -130,7 +130,7 @@ for i in lista2:
 Nota: Un número primo es un número entero que no se puede calcular multiplicando 
 otros números enteros.
 """
-#
+
 n1 = list()
 multiplos3 = list()
 for i in lista1:
@@ -194,7 +194,7 @@ print(pares)
 cubos = list()
 for i in range(1,101):
   cubos.append(i**3)
-#print(cubos[i])
+
 
 
 """Encuentre la suma de la serie 2 +22 + 222 + 2222 + .. hasta sumar 10 términos 
