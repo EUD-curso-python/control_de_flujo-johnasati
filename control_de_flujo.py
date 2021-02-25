@@ -100,27 +100,25 @@ print(multiplos3)
   '1'
 ]
 """
-l1=list()
-l2=list()
-acumulado=list()
-regresivo50=list()
-n=1
-for i in range(51):
-    while n<=i:
-        l1.append(str(n))
-        n=n+1
-    l2=' '.join(l1)
-    acumulado.append(l2)
-    
-acumulado.pop(0)
-regresivo50=acumulado
-regresivo50.reserved()
-print(regresivo50)
-
-
-
 #l1=list()
+#l2=list()
+#acumulado=list()
+#regresivo50=list()
+#n=1
+#for i in range(51):
+    #while n<=i:
+        #l1.append(str(n))
+        #n=n+1
+    #l2=' '.join(l1)
+    #acumulado.append(l2)
+    #l1=list()
     #n=1
+#acumulado.pop(0)
+#regresivo50=acumulado
+#regresivo50.reserved()
+#print(regresivo50)
+
+
 
 """Invierta la siguiente lista usando el bucle for y guarde el resultado en 
 `invertido` (sin hacer uso de la función `reversed` ni del método `reverse`)
@@ -132,8 +130,6 @@ ll = len(lista2)-1
 for i in lista2:
   invertido.append(lista2[ll])
   ll-=1
-
-
 
 
 
@@ -179,7 +175,10 @@ Por ejemplo, el factorial de 5 se calcula así:
 5! = 5 × 4 × 3 × 2 × 1 = 120
 """
 
-#factorial = 30
+factorial = 30
+for i in range(factorial,1,-1):
+ factorial =factorial* (i -1)
+print (factorial)
 
 
 
