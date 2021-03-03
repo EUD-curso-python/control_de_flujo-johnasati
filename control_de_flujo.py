@@ -23,7 +23,7 @@ for n in (rango):
   intento1 = intento1 + ' ' + str(n)
   intento1 = intento1.lstrip()
   acumulado.append(intento1)
-print(acumulado)
+#print(acumulado)
 
 
 """Guarde en `suma100` el entero de la suma de todos los números entre 1 y 100:
@@ -80,9 +80,9 @@ for i in lista1:
   if i%3 == 0 and i < 300:
     n1.append(i)
   i += 1
-print(n1)
+#print(n1)
 multiplos3 = len(n1)
-print(multiplos3)
+#print(multiplos3)
 
 
 
@@ -155,10 +155,11 @@ otros números enteros.
 """
 primos = []
 for i in range(37,301):
- n = 0
- for j in range(1,i+1):
-  if i % j == 0: 
-    n += 1
+
+  n = 0
+  for j in range(1,i+1):
+      if i % j == 0: 
+        n += 1
   if n == 2:
     primos.append(i)
 print(primos)
@@ -187,7 +188,7 @@ fibonacci = [0,1]
 while i < 60:
  fibonacci.append(fibonacci[i-1]+fibonacci[i-2])
  i += 1
-print (fibonacci)
+#print (fibonacci)
 
 #n = 2
 #fibonacci = [0,1]
@@ -210,7 +211,7 @@ Por ejemplo, el factorial de 5 se calcula así:
 factorial = 30
 for i in range(factorial,1,-1):
  factorial =factorial* (i -1)
-print (factorial)
+#print (factorial)
 
 
 
@@ -226,7 +227,7 @@ for i in lista3:
   if posicion%2 == 0 and posicion <= 80:
     pares.append(i)
   posicion += 1
-print(pares)
+#print(pares)
 
 
 """Guarde en lista `cubos` el cubo (potencia elevada a la 3) de los números del 
@@ -253,7 +254,7 @@ while n <= 10:
     i += 1
   suma_2s = suma_2s + int(serie)
   n += 1
-print(suma_2s)
+#print(suma_2s)
 
 
 
@@ -284,7 +285,7 @@ for numero in range(1,31):
 for numero in range(29,0, -1):
   patron += "*"*(numero) + "\n"
 patron = patron.strip()
-print(patron)
+#print(patron)
 
 
 
