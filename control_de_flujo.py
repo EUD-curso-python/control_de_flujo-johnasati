@@ -100,6 +100,22 @@ print(multiplos3)
   '1'
 ]
 """
+
+regresivo50 = []
+Variable_lista = ''
+for i in range(1,51,1):
+ 
+ Variable_lista = str(i) + ' ' + Variable_lista + '\n'
+ Variable_lista = Variable_lista.strip() 
+ i -= 1
+ regresivo50.append(Variable_lista) 
+regresivo50.reverse()
+ 
+resultado = '\n'.join(str(sublista) for sublista in regresivo50)
+#print(resultado)
+
+
+
 #l1=list()
 #l2=list()
 #acumulado=list()
@@ -137,16 +153,25 @@ for i in lista2:
 Nota: Un número primo es un número entero que no se puede calcular multiplicando 
 otros números enteros.
 """
+#primos = []
+#for i in range(37,301):
+ #n = 0
+ #for j in range(1,i+1):
+ #if i % j == 0:
+ #n += 1
+ #if n == 2:
+ #primos.append(i)
+#print(primos)
 
-n1 = list()
-multiplos3 = list()
-for i in lista1:
-  if i%3 == 0 and i < 300:
-    n1.append(i)
-  i += 1
-print(n1)
-multiplos3 = len(n1)
-print(multiplos3)
+#n1 = list()
+#multiplos3 = list()
+#for i in lista1:
+  #if i%3 == 0 and i < 300:
+    #n1.append(i)
+  #i += 1
+#print(n1)
+#multiplos3 = len(n1)
+#print(multiplos3)
 
 """Guardar en `fibonacci` una lista con los primeros 60 términos de la serie de 
 Fibonacci.
