@@ -157,6 +157,13 @@ del segundo cada uno se calcula sumando los dos anteriores términos de la serie
 
 """
 
+i = 2
+fibonacci = [0,1]
+while i < 60:
+ fibonacci.append(fibonacci[i-1]+fibonacci[i-2])
+ i += 1
+print (fibonacci)
+
 #n = 2
 #fibonacci = [0,1]
 #while n < 6:
