@@ -153,15 +153,15 @@ for i in lista2:
 Nota: Un número primo es un número entero que no se puede calcular multiplicando 
 otros números enteros.
 """
-#primos = []
-#for i in range(37,301):
- #n = 0
- #for j in range(1,i+1):
- #if i % j == 0:
- #n += 1
- #if n == 2:
- #primos.append(i)
-#print(primos)
+primos = []
+for i in range(37,301):
+ n = 0
+ for j in range(1,i+1):
+  if i % j == 0: 
+    n += 1
+  if n == 2:
+    primos.append(i)
+print(primos)
 
 #n1 = list()
 #multiplos3 = list()
